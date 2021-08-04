@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/Stalkakuma/data-react.git/static/js/main.e1658a6c.chunk.js",
+    "main.js.map": "/Stalkakuma/data-react.git/static/js/main.e1658a6c.chunk.js.map",
+    "runtime-main.js": "/Stalkakuma/data-react.git/static/js/runtime-main.e8000e2a.js",
+    "runtime-main.js.map": "/Stalkakuma/data-react.git/static/js/runtime-main.e8000e2a.js.map",
+    "static/js/2.ebdb1f58.chunk.js": "/Stalkakuma/data-react.git/static/js/2.ebdb1f58.chunk.js",
+    "static/js/2.ebdb1f58.chunk.js.map": "/Stalkakuma/data-react.git/static/js/2.ebdb1f58.chunk.js.map",
+    "index.html": "/Stalkakuma/data-react.git/index.html",
+    "static/js/2.ebdb1f58.chunk.js.LICENSE.txt": "/Stalkakuma/data-react.git/static/js/2.ebdb1f58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8000e2a.js",
+    "static/js/2.ebdb1f58.chunk.js",
+    "static/js/main.e1658a6c.chunk.js"
+  ]
+}

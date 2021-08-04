@@ -1,0 +1,10 @@
+const getData=()=>{
+	fetch('data.json')
+	,{
+	  header : {
+	    'Content-Type': 'application/json',
+	    'Accept': 'application/json'
+	  }
+	}
+	  .then
+}
