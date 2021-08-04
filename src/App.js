@@ -49,6 +49,7 @@ class App extends React.Component {
             <h1 
               key={myMemes.id}>
               {myMemes.name}
+              <img className="memeImage" src={myMemes.url}/>
            </h1>   
           ))}    
         </div>

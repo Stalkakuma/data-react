@@ -1,1 +1,13 @@
-null 
+.memeImage {
+	max-width: 300px;
+}
+div{
+	align-content: center;
+	display: flex;
+}
+h1{
+	font-size: 22px;
+	align-items: center;
+
+
+}
