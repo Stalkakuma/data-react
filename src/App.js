@@ -10,8 +10,7 @@ class App extends React.Component {
       items: [],
     };
   }
-
-  componentDidMount() {
+   componentDidMount() {
     fetch("https://api.imgflip.com/get_memes")
       .then(response => response.json())
       .then(
@@ -27,44 +26,35 @@ class App extends React.Component {
             isLoaded: true,
             error,
           });
-        }
-   )
-  }
-
+        })}
   render() {
     const { error, isLoaded, items } = this.state;
 
     const containsErrorMessage = () => {
       return <div>Error: {error.message}</div>;
     };
-
+    
     const isLoading = () => {
       return <div>Loading...</div>;
     };
     
-    function results()  {
-      return (
-         <div>
-          {items.map(myMemes => (
-            <h1 
-              key={myMemes.id}>
-              {myMemes.name}
-              <img className="memeImage" src={myMemes.url}/>
-           </h1>   
-          ))}    
-        </div>
-      )
-    }
     const showMe = () =>{
       return (
         <div>
-           <Table results={this.results}  />
+          {items.map((myMemes, index)=>(
+           <Table 
+              key={myMemes.id}
+              name={myMemes.name}
+              url={myMemes.url}
+              alt={myMemes.id}
+              />
+            ))}  
         </div>
           )
     }
 
     if (error) return containsErrorMessage();
-    return !isLoaded ? isLoading() : results();
+    return !isLoaded ? isLoading() : showMe();
   }
 }
 export default App

@@ -3,11 +3,12 @@
 }
 div{
 	align-content: center;
-	display: flex;
+	display: inline-grid;
 }
 h1{
 	font-size: 22px;
 	align-items: center;
-
-
+}
+li{
+	
 }
